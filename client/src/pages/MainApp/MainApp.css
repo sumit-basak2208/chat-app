@@ -1,0 +1,8 @@
+.main-app {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    overflow-y: hidden;
+}

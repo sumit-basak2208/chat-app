@@ -1,0 +1,44 @@
+.group-model {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    cursor: context-menu;
+}
+
+.group-model:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.group-model img {
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #76b852;
+    margin: 10px;
+}
+
+.flex-left {
+    display: flex;
+}
+
+.flex-cols {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-cols * {
+    text-align: left;
+}
+
+.flex-cols p {
+    font-size: small;
+}
+
+
+.group-model .time {
+    padding: 5px;
+    font-size: small;
+}
+

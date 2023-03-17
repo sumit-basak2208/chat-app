@@ -1,0 +1,54 @@
+.side-bar {
+    width: 80px;
+    background-color: oldlace;
+    height: 100%;
+}
+
+.hr {
+    height: 2px;
+    background-color: #76b852;
+    margin: 0 5px 0 5px;
+    position: relative;
+    top: -5px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 40px;
+    border: 2px solid #76b852;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    width: 80%;
+    height: 44px;
+    transition: 0.5s;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.logout {
+    background-color: transparent;
+    font-size: 180%;
+    color: gray;
+}
+
+.logout:hover {
+    color: #76b852;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+    align-items: center;
+}
+
+@media only screen and (max-width: 450px){
+    .side-bar {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+# POST http://localhost:5000/api/user 
+# content-type: application/json
+
+# {
+#     "name": "Sumit",
+#     "email": "4sumitbasak108@gmail.com",
+#     "password": "admin123"
+# }
+
+POST http://localhost:5000/api/user/login
+content-type: application/json
+
+{
+    "email": "sumitbasak108@gmail.com",
+    "password": "admin123"
+}

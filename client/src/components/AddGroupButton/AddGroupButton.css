@@ -1,0 +1,47 @@
+.add-button {
+    background-color: #76b852;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px #76b852;
+    width: 100%;
+}
+
+.add-button:hover {
+    color: #76b852;
+    background-color: white;
+}
+
+Dialog {
+    width: 200px;
+}
+
+.add-group-form {
+    width: 100%;
+}
+
+.access-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+
+.access {
+    width: 40%;
+    font-size: large;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.url-title {
+    padding: 20px 0;
+}
+
+.url {
+    background-color: rgb(239, 239, 239);
+    color: gray;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
