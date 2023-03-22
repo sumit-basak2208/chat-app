@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sumit-basak2208/MERN-chat-app/issues"
   },
-  "homepage": "https://github.com/sumit-basak2208/MERN-chat-app#readme"
+  "homepage": "https://github.com/sumit-basak2208/MERN-chat-app#readme",
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
