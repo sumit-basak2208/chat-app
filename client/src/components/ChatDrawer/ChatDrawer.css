@@ -1,25 +1,30 @@
 .chat-drawer {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 30%;
     background-color: rgb(244, 243, 241); 
-    min-width: 350px;
-    height: 100%;
+    min-width: 300px;
     border-right: 1px solid gray;
+    border-left: 1px solid gray;
 }
-
+.chat-drawer .logo{
+    margin: 12px 0;
+}
 .search-bar-container {
-    margin: 10px auto;
+    margin: 10px 0;
     width: 100%;
+}
+.search-bar{
+    width: 90%;
+    margin: auto;
 }
 
 .search-bar input {
-    width: 90%;
+    width: 100%;
     background-color: rgb(216, 216, 216);
     border: none;
     border-radius: 15px;
-    padding: 10px;
-    padding-left: 30px;
+    padding: 10px 0 10px 35px;
 }
 
 .search-bar input::placeholder {
@@ -35,10 +40,11 @@
 
 .chat-drawer h1 {
     font-size: xx-large;
-    color: black;
     text-align: left;
     margin: 10px 0 0 20px;
     cursor: context-menu;
+    font-weight: 500;
+    color: #76b852;
 }
 
 .group-container {
